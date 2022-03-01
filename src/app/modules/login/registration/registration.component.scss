@@ -1,0 +1,23 @@
+.registration-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+mat-card-content {
+    margin-top: 20px;
+}
+
+mat-card {
+    width: 30%;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.registration-bottom {
+    display: flex;
+    justify-content: center;
+}

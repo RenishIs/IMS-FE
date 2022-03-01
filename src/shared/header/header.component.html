@@ -1,0 +1,9 @@
+<mat-toolbar *ngIf="localStorageToken">
+    <ng-container *ngFor="let item of menusArray">
+        <mat-icon>{{item.icon}}</mat-icon> <span>{{item.name}}</span>
+    </ng-container>
+    <span class="spacer"></span>
+    <button (click)="logout()" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>logout</mat-icon>
+    </button>
+</mat-toolbar>

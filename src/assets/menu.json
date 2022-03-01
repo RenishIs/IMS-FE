@@ -1,0 +1,22 @@
+{
+    "hr": [
+        {
+            "name": "Dashboard",
+            "icon": "dashboard"
+        },
+        {
+            "name": "Candidates",
+            "icon": "supervisor_account"
+        }
+    ],
+    "admin": [
+        {
+            "name": "Dashboard",
+            "icon": "dashboard"
+        },
+        {
+            "name": "Candidates",
+            "icon": "supervisor_account"
+        }
+    ]
+}
